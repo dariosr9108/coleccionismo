@@ -1,0 +1,105 @@
+.header{
+    display: flex;
+    background-color: radial-gradient(#f69d3c, #3f87a6);
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    
+    &__logo{
+          
+        margin-bottom: 1 rem; 
+        margin-top: 0.5rem;
+        width: 200px;
+    }
+    &__title{
+        font-size: 2rem;
+        color: #f0e7e7;
+        font-family: "Fira Sans", sans-serif;
+        padding: 1.5rem;
+        width: 100%;
+        background-color:black;
+    }
+}   
+.menu{
+    background-color: radial-gradient(#f69d3c, #3f87a6);  
+    position: relative;
+    list-style: none;
+    text-align: center;
+    display: flex; 
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+    -ms-grid-row-align: stretch;
+    padding-bottom: 1em ;
+    padding-top: 1.5em ;
+    align-items: center;
+   
+    li{               
+        &:hover{
+            transform: scale(1.2);
+            color: $cr_hover;
+            .submenu {
+                display:block;
+                list-style: none;
+                
+                        
+            }
+        }
+        a{
+            padding: 0.6em;
+            font-weight: 600;
+            font-size: 0.9rem;
+            font-family: 'Mukta', sans-serif;  
+            z-index: 1;
+            text-decoration: none;
+            color: rgb(95, 8, 95);
+            display: inline-block;
+            
+                                       
+            &:hover{
+                color: $cr_hover;
+                transform: scale(1.2,1.2);
+            }
+                
+        }
+        .submenu{
+            width: 7em;
+            border : solid rgba(245, 245, 245, 0.493) ;
+            background-color: grey;
+            list-style: none;
+            position: absolute;
+            display: none;
+            padding: 0 !important;
+                    
+            li {
+                a{
+                    z-index: 1;
+                    color:rgb(12, 26, 66);
+                    font-size: 0.8rem;
+                    &:hover{
+                        color: $cr_hover;
+                        
+                        
+                    }
+                }
+            }
+        }
+    }    
+}
+ul{
+    margin:0;
+}
+.fas fa-cart-arrow-down, .fas fa-search{
+    font-size: 1.3rem;
+   
+}
+
+
+        
+            
+             
+    
+
+
+
+
+

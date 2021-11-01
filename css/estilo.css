@@ -1,0 +1,555 @@
+@charset "UTF-8";
+@import url("https://fonts.googleapis.com/css2?family=Supermercado+One&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Mukta&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Fira+Sans&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  text-align: center;
+  background: radial-gradient(#f69d3c, #3f87a6);
+}
+
+hr {
+  margin: 0 !important;
+  opacity: 1 !important;
+  color: white;
+}
+
+li {
+  z-index: 1;
+}
+
+.header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  background-color: radial-gradient(#f69d3c, #3f87a6);
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+}
+
+.header__logo {
+  margin-bottom: 1 rem;
+  margin-top: 0.5rem;
+  width: 200px;
+}
+
+.header__title {
+  font-size: 2rem;
+  color: #f0e7e7;
+  font-family: "Fira Sans", sans-serif;
+  padding: 1.5rem;
+  width: 100%;
+  background-color: black;
+}
+
+.menu {
+  background-color: radial-gradient(#f69d3c, #3f87a6);
+  position: relative;
+  list-style: none;
+  text-align: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: row wrap;
+          flex-flow: row wrap;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  -ms-grid-row-align: stretch;
+  padding-bottom: 1em;
+  padding-top: 1.5em;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.menu li:hover {
+  -webkit-transform: scale(1.2);
+          transform: scale(1.2);
+  color: bisque;
+}
+
+.menu li:hover .submenu {
+  display: block;
+  list-style: none;
+}
+
+.menu li a {
+  padding: 0.6em;
+  font-weight: 600;
+  font-size: 0.9rem;
+  font-family: 'Mukta', sans-serif;
+  z-index: 1;
+  text-decoration: none;
+  color: #5f085f;
+  display: inline-block;
+}
+
+.menu li a:hover {
+  color: bisque;
+  -webkit-transform: scale(1.2, 1.2);
+          transform: scale(1.2, 1.2);
+}
+
+.menu li .submenu {
+  width: 7em;
+  border: solid rgba(245, 245, 245, 0.493);
+  background-color: grey;
+  list-style: none;
+  position: absolute;
+  display: none;
+  padding: 0 !important;
+}
+
+.menu li .submenu li a {
+  z-index: 1;
+  color: #0c1a42;
+  font-size: 0.8rem;
+}
+
+.menu li .submenu li a:hover {
+  color: bisque;
+}
+
+ul {
+  margin: 0;
+}
+
+.fas fa-cart-arrow-down, .fas fa-search {
+  font-size: 1.3rem;
+}
+
+main h2 {
+  background-color: #13100c;
+  font-size: 2rem;
+  color: darkgrey;
+  border: none;
+  font-family: 'Fira Sans', sans-serif;
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  padding: 1rem;
+  margin: 2rem;
+}
+
+main section h3 {
+  background-color: #dfbc72;
+  font-size: 1.4rem;
+  color: black;
+  border: solid;
+  font-family: 'Fira Sans', sans-serif;
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  padding: 1rem;
+  margin: 2rem;
+}
+
+main section h3 {
+  font-family: Arial, Helvetica, sans-serif;
+  margin-bottom: 1rem;
+}
+
+main section .imgPortada {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr 1fr;
+      grid-template-columns: 1fr 1fr;
+  -ms-grid-rows: 1fr 1fr;
+      grid-template-rows: 1fr 1fr;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  justify-items: center;
+  -webkit-column-gap: 1em;
+          column-gap: 1em;
+  row-gap: 1em;
+}
+
+main section .nosotros {
+  font-size: 1rem;
+  text-align: center;
+  margin: 1rem;
+  border: dashed black;
+  border-radius: 5rem;
+  padding: 1.2rem;
+  font-weight: bolder;
+  font-family: 'Mukta', sans-serif;
+}
+
+main section .redes {
+  font-size: 1.5rem;
+  margin: 1rem;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+main section .redes a {
+  text-decoration: none;
+  padding: 1rem;
+  color: #5f085f;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+main section .redes a:hover {
+  color: bisque;
+}
+
+main section .articuloUno {
+  border: double;
+  background-color: #d6bc55;
+  font-family: 'Mukta', sans-serif;
+  margin: 1.5rem;
+  padding: 0.5rem;
+}
+
+main section h4 {
+  font-size: 1.4rem;
+  font-family: 'Fira Sans', sans-serif;
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+}
+
+main section .imgUb {
+  padding: 1em;
+}
+
+main section iframe {
+  width: 80%;
+}
+
+main section table {
+  text-align: center;
+  border: solid black;
+  margin: 0.8rem;
+  width: 98%;
+}
+
+main section table .cuadro, main section table .año, main section table .empresa, main section table .figuras {
+  font-family: 'Supermercado One', cursive;
+  font-size: 1.4rem;
+}
+
+main section table .figuras {
+  list-style-position: inside;
+  text-align: center;
+}
+
+main section table caption {
+  text-align: center;
+  font-size: 1.4rem;
+  font-family: 'Fira Sans', sans-serif;
+  margin: 1%;
+}
+
+main section table th {
+  font-size: 1.4rem;
+  border: double black;
+}
+
+main section table td {
+  border: double black;
+}
+
+main section form {
+  font-weight: bold;
+  text-align: center;
+  font-size: 1rem;
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  margin-top: 1em;
+}
+
+main section .button-3 {
+  background-color: #2ea44f;
+  -webkit-appearance: none;
+     -moz-appearance: none;
+          appearance: none;
+  border: 1px solid rgba(27, 31, 35, 0.15);
+  border-radius: 6px;
+  -webkit-box-shadow: rgba(27, 31, 35, 0.1) 0 1px 0;
+          box-shadow: rgba(27, 31, 35, 0.1) 0 1px 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  color: #fff;
+  cursor: pointer;
+  display: inline-block;
+  font-family: -apple-system,system-ui,"Segoe UI",Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji";
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 20px;
+  padding: 6px 16px;
+  position: relative;
+  text-align: center;
+  text-decoration: none;
+  -moz-user-select: none;
+   -ms-user-select: none;
+       user-select: none;
+  -webkit-user-select: none;
+  -ms-touch-action: manipulation;
+      touch-action: manipulation;
+  vertical-align: middle;
+  white-space: nowrap;
+}
+
+main section .button-4 {
+  background-color: #FF4742;
+  -webkit-appearance: none;
+     -moz-appearance: none;
+          appearance: none;
+  border: 1px solid rgba(27, 31, 35, 0.15);
+  border-radius: 6px;
+  -webkit-box-shadow: rgba(27, 31, 35, 0.1) 0 1px 0;
+          box-shadow: rgba(27, 31, 35, 0.1) 0 1px 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  color: #fff;
+  cursor: pointer;
+  display: inline-block;
+  font-family: -apple-system,system-ui,"Segoe UI",Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji";
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 20px;
+  padding: 6px 16px;
+  position: relative;
+  text-align: center;
+  text-decoration: none;
+  -moz-user-select: none;
+   -ms-user-select: none;
+       user-select: none;
+  -webkit-user-select: none;
+  -ms-touch-action: manipulation;
+      touch-action: manipulation;
+  vertical-align: middle;
+  white-space: nowrap;
+}
+
+main section .imagenesProductos {
+  border: solid 1px whitesmoke;
+  overflow: hidden;
+  width: 20rem;
+  height: 25rem;
+  padding: 0.1rem;
+  margin: 2rem;
+  opacity: .5;
+}
+
+main section .imagenesProductos:hover {
+  opacity: 1;
+  border: solid 2px black;
+  -webkit-transform: scale(1.15);
+          transform: scale(1.15);
+  -webkit-transition: all 1s ease;
+  transition: all 1s ease;
+}
+
+main section .productos {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-rows: 1fr;
+      grid-template-rows: 1fr;
+  -ms-grid-columns: 1fr;
+      grid-template-columns: 1fr;
+  width: 98%;
+}
+
+main section .mailWsp {
+  display: block;
+  list-style: none;
+  font-size: 1.6rem;
+  padding: 0.5rem;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: jcenter;
+}
+
+main section legend {
+  margin: 1rem;
+}
+
+main .heroImage {
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.5)), to(rgba(0, 0, 0, 0.5))), url("../img/heromarcas(1).jpeg");
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../img/heromarcas(1).jpeg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 35rem;
+}
+
+main .heroText {
+  text-align: center;
+  position: relative;
+  top: 60%;
+  left: 40%;
+  font-size: 2.5vh;
+  -webkit-transform: translate(-40%, -40%);
+          transform: translate(-40%, -40%);
+  font-family: 'Lato', sans-serif;
+  color: var(--secondaryColor);
+}
+
+main .heroText__title {
+  font-size: 4rem;
+  color: yellow;
+}
+
+main .heroText__subtitle {
+  font-size: 2rem;
+  color: yellow;
+}
+
+footer #dolar {
+  margin: 0.8rem;
+}
+
+footer #dolar a {
+  color: #5f085f;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bolder;
+}
+
+footer #dolar a:hover {
+  color: bisque;
+}
+
+footer #derechos {
+  margin-top: 0.5rem;
+  color: whitesmoke;
+  padding: 0.5rem;
+  text-align: center;
+  width: 100%;
+  background-color: black;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/*Tablet*/
+@media (min-width: 768px) and (max-width: 1199px) {
+  body {
+    text-align: center;
+  }
+  nav .listaUno ul {
+    -webkit-transform: translate(71px, -18px);
+            transform: translate(71px, -18px);
+  }
+  main .productos {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-rows: 1fr  1fr;
+        grid-template-rows: 1fr  1fr;
+    -ms-grid-columns: 1fr 1fr;
+        grid-template-columns: 1fr 1fr;
+    width: 98%;
+  }
+  main iframe {
+    width: 60%;
+  }
+  main .heroText {
+    text-align: center;
+    position: relative;
+    top: 60%;
+    left: 50%;
+    font-size: 2.5vh;
+    -webkit-transform: translate(-50%, -50%);
+            transform: translate(-50%, -50%);
+    font-family: 'Lato', sans-serif;
+    color: var(--secondaryColor);
+  }
+  main .heroText__title {
+    font-size: 5rem;
+    color: yellow;
+  }
+  main .heroText__subtitle {
+    font-size: 3rem;
+    color: yellow;
+  }
+}
+
+/*Computadora*/
+@media (min-width: 1200px) {
+  body {
+    text-align: center;
+  }
+  h1 {
+    text-align: center;
+    font-size: 2.5rem;
+    color: #ffffff;
+    background-color: black;
+    font-family: 'Fira Sans', sans-serif;
+    padding: 1.5rem;
+    width: 100%;
+  }
+  nav .listaUno ul {
+    -webkit-transform: translate(71px, -18px);
+            transform: translate(71px, -18px);
+  }
+  main section .imgPortada {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: 1fr 1fr 1fr 1fr;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+    justify-items: center;
+  }
+  main section h3 {
+    font-size: 2rem;
+    margin-top: 1em;
+  }
+  main section .nosotros {
+    font-size: 2rem;
+    text-align: center;
+    margin: 2rem;
+    border: dashed black;
+    border-radius: 5rem;
+    padding: 2rem;
+  }
+  main section iframe {
+    width: 50%;
+  }
+  main .productos {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-rows: 1fr  1fr;
+        grid-template-rows: 1fr  1fr;
+    -ms-grid-columns: 1fr 1fr 1fr;
+        grid-template-columns: 1fr 1fr 1fr;
+    width: 98%;
+  }
+  main .heroText {
+    text-align: center;
+    position: relative;
+    top: 60%;
+    left: 50%;
+    font-size: 2.5vh;
+    -webkit-transform: translate(-50%, -50%);
+            transform: translate(-50%, -50%);
+    font-family: 'Lato', sans-serif;
+    color: var(--secondaryColor);
+  }
+  main .heroText__title {
+    font-size: 5rem;
+    color: yellow;
+  }
+  main .heroText__subtitle {
+    font-size: 3rem;
+    color: yellow;
+  }
+}
+/*# sourceMappingURL=estilo.css.map */

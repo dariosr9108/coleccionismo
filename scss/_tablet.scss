@@ -1,0 +1,46 @@
+/*Tablet*/
+@media (min-width:768px) and (max-width:1199px) {
+    body{
+        text-align: center;
+       
+    }
+
+    nav{
+        .listaUno ul{
+            transform: translate(71px,-18px);
+        }
+    }
+  
+    main{
+        .productos{
+            display: grid;
+            grid-template-rows: 1fr  1fr;
+            grid-template-columns: 1fr 1fr ;
+            width: 98%;
+        } 
+        iframe{
+            width:60%;
+        }
+        .heroText {
+            text-align: center;
+            position: relative;
+            top: 60%;
+            left: 50%;
+            font-size: 2.5vh;
+            transform: translate(-50%, -50%);
+            font-family: 'Lato', sans-serif;
+            color: var(--secondaryColor);
+            &__title {
+                font-size: 5rem;
+                color: yellow;
+            }
+            &__subtitle {
+                font-size: 3rem;
+                color: yellow
+            }
+        }
+         
+    }
+  
+  
+}

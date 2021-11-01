@@ -1,0 +1,116 @@
+<!DOCTYPE html><!--HOME/HEADER-->
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario - Trujillo´s Collectors Store</title>
+    <meta name="description" content="Comprá, vendé o canjea lo que deseés en Trujillo´s Collectors Store">
+    <meta name="keywords" content="contacto, presupuesto, compra, canje, venta, mail, whatsapp">
+    <link rel="stylesheet" href="css/estilo.css">
+    <script src="https://kit.fontawesome.com/c127bdbc65.js" crossorigin="anonymous"></script>
+    <link rel="icon" href="img/logoIcon.png" type="img/ico">
+    
+    
+</head>
+<body>    
+    <header>
+        <div class="header">
+            <img class=header__logo src="img/Logo.png" alt="logo de la pagina">
+            <h1 class="header__title"><em> Trujillo´s Collectors Store</em></h1>
+        </div>
+        <nav >
+            <hr><!--Esto tendría que ir en horizontal-->
+                <ul class="menu"  >
+                    <li class="listaUno"><a href="index.html">Home</a></li>
+                    <li class="listaUno"><a href="marcas.html">Marcas</a></li>
+                    <li class="listaUno"><a href="formulario.html">Contacto</a></li>
+                    <li class="listaUno" ><a href="">Figuras <i class="fas fa-sort-down" ></i> </a>
+                        <ul class="submenu">
+                            <hr><li><a href="dc.html">DC</a></li><hr>
+                            <hr><li><a href="marvel.html">Marvel</a></li><hr>
+                            <hr><li><a href="star wars.html">Star Wars</a></li><hr>
+                            <hr><li><a href="motu.html">Motu</a></li><hr>
+                            <hr><li><a href="varias.html">Varias</a></li>
+                        </ul>
+                    </li>
+                    <li class="listaUno"><i class="fas fa-cart-arrow-down"></i></li>
+                    <li class="listaUno"><i class="fas fa-search"></i></li>
+                </ul>   
+            <hr>
+        </nav>
+    </header> 
+    <main >
+        <section class="heroImage">
+            <div class="heroText">
+                <p class="heroText__title">Contactanos</p>
+                <p class="heroText__subtitle">Vendé tu producto al mejor precio</p>
+            </div>
+        </section>
+        <section >
+            <form  id="contacto" action="#">
+                <fieldset >
+                    <legend><strong>Vendé tu producto</strong></legend>
+                    
+                    <div >
+                       <div><label for="name">Nombre:</label></div> 
+                        <input type="text" name="nombre" placeholder="Nombre">
+                        <div><label for="Apellido">Apellido:</label></div>
+                        <input type="text" name="apellido" placeholder="Apellido">
+                    </div><br>
+                    <div >
+                        <div><label for="email">Email:</label></div>
+                        <input type="email" name="email">
+                        <div><label for="telefono">Teléfono:</label></div>
+                        <input type="number" name="telefono">
+                    </div><br>
+                    <div>
+                       <div> <label for="articulo">Artículo:</label></div>
+                        <input type="text" name="articulo">
+                        <div><label for="estado">Estado:</label></div>
+                        <select name="estado" id="">
+                            <div><option value="nuevo">Nuevo</option></div>
+                            <div><option value="usado">Usado</option></div>
+                            <div><option value="reacondicionado">Reacondicionado</option></div>
+                        </select>
+                            
+                    </div><br>
+                    <div >
+                        <label for="operacion">Seleccione tipo de operación:</label>
+                        <div><input type="radio" name="operacion" value="venta"> Venta</div>
+                        <div><input type="radio" name="Operacion" value="canje">Canje</div>
+                        <div><input type="radio" name= "operacion" value="cualquiera">Cualquiera</div>
+                    </div> <br>
+                    <div >
+                        <div><label for="foto">Adjunte Imágenes*</label></div>
+                        <input type="file" name="foto" value="foto" required>
+                    </div><br>
+                    <div >
+                        <label for="comentario"></label>
+                        <textarea name="comentario" id="" cols="40" rows="10" placeholder="Inserte aclaración y/o detalles"></textarea>
+                    </div> <br>
+                    <div >
+                        <button class="button-3" role="button" type="submit" value="Solicitar cotización">Solicitar cotización</button>
+                        <button class="button-4" role="button" type="reset" value="Borrar todo">Borrar todo</button>
+
+                    </div> 
+                        
+                </fieldset>
+    
+            </form>
+        </section><br>
+    </main>
+    <footer>
+        <div id="dolar" >
+            <a href="https://dolarhoy.com/" target="_blank">La cotización del dólar</a>
+        </div>
+        
+        <div id="derechos">
+            <p>Derechos de autor Darío Sebastián Rodríguez 2021</p>
+        </div>  
+    
+    </footer>
+    
+        
+</body>
+</html>

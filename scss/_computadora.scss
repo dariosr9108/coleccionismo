@@ -1,0 +1,78 @@
+/*Computadora*/
+@media (min-width:1200px) {
+    body{
+        text-align: center;
+        
+    }
+    h1{
+        text-align: center;
+        font-size: 2.5rem;
+        color: #ffffff;
+        background-color: black;
+        font-family: 'Fira Sans', sans-serif;
+        padding: 1.5rem;
+        width: 100%;
+        
+    }
+
+    nav{
+        .listaUno ul{
+            transform: translate(71px,-18px) ;
+        }
+    }
+    main{
+        section{
+            .imgPortada{
+                display: grid;
+                grid-template-columns: 1fr 1fr 1fr 1fr;
+                justify-content: space-around;
+                justify-items: center;
+                  
+            }   
+            
+            h3{
+                font-size: 2rem;
+                margin-top: 1em;
+                
+            }
+
+            .nosotros{
+                font-size: 2rem;
+                text-align: center;
+                margin:2rem;
+                border: dashed black;
+                border-radius: 5rem;
+                padding: 2rem;
+            }
+            iframe{
+                width:50%;
+            }
+        
+        }
+        .productos{
+            display: grid;
+            grid-template-rows: 1fr  1fr;
+            grid-template-columns: 1fr 1fr 1fr;
+            width: 98%;
+        }
+        .heroText {
+            text-align: center;
+            position: relative;
+            top: 60%;
+            left: 50%;
+            font-size: 2.5vh;
+            transform: translate(-50%, -50%);
+            font-family: 'Lato', sans-serif;
+            color: var(--secondaryColor);
+            &__title {
+                font-size: 5rem;
+                color: yellow;
+            }
+            &__subtitle {
+                font-size: 3rem;
+                color: yellow
+            }
+        }
+
+    }
+}
