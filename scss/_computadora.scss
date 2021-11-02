@@ -24,6 +24,11 @@
     }
     main{
         section{
+
+            table{
+                width: 98%;
+                margin-left:0.8rem;
+            }
             .imgPortada{
                 display: grid;
                 grid-template-columns: 1fr 1fr 1fr 1fr;

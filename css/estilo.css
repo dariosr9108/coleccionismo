@@ -241,6 +241,7 @@ main section table {
   border: solid black;
   margin: 0.8rem;
   width: 90%;
+  margin-left: 0.1rem;
 }
 
 main section table .cuadro, main section table .año, main section table .empresa, main section table .figuras {
@@ -507,6 +508,10 @@ footer #derechos {
         grid-template-columns: 1fr;
     width: 98%;
   }
+  main table {
+    width: 98%;
+    margin-left: 0.8rem;
+  }
 }
 
 /*Computadora*/
@@ -526,6 +531,10 @@ footer #derechos {
   nav .listaUno ul {
     -webkit-transform: translate(71px, -18px);
             transform: translate(71px, -18px);
+  }
+  main section table {
+    width: 98%;
+    margin-left: 0.8rem;
   }
   main section .imgPortada {
     display: -ms-grid;
