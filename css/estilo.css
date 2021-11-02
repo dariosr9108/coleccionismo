@@ -242,6 +242,7 @@ main section table {
   margin: 0.8rem;
   width: 90%;
   margin-left: 0.1rem;
+  margin-right: 0.1rem;
 }
 
 main section table .cuadro, main section table .año, main section table .empresa, main section table .figuras {
