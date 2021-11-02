@@ -7,7 +7,7 @@
 
     nav{
         .listaUno ul{
-            transform: translate(71px,-18px);
+            transform: translate(65px,-13px);
         }
     }
   
@@ -39,8 +39,22 @@
                 color: yellow
             }
         }
+        .imageSizing{
+            width: 1100px;
+            height: 500px;
+            margin-left: 0%;
+            
+        } 
+        .productos{
+            display: grid;
+            grid-template-rows: 1fr;
+            grid-template-columns: 1fr;
+            width: 98%;
+        }
+        
          
     }
+
   
   
 }

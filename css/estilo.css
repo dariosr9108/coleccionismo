@@ -415,6 +415,12 @@ main .heroText__subtitle {
   color: yellow;
 }
 
+main .imageSizing {
+  width: 500px;
+  height: 500px;
+  margin-left: -2%;
+}
+
 footer #dolar {
   margin: 0.8rem;
 }
@@ -445,8 +451,8 @@ footer #derechos {
     text-align: center;
   }
   nav .listaUno ul {
-    -webkit-transform: translate(71px, -18px);
-            transform: translate(71px, -18px);
+    -webkit-transform: translate(65px, -13px);
+            transform: translate(65px, -13px);
   }
   main .productos {
     display: -ms-grid;
@@ -478,6 +484,20 @@ footer #derechos {
   main .heroText__subtitle {
     font-size: 3rem;
     color: yellow;
+  }
+  main .imageSizing {
+    width: 1100px;
+    height: 500px;
+    margin-left: 0%;
+  }
+  main .productos {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-rows: 1fr;
+        grid-template-rows: 1fr;
+    -ms-grid-columns: 1fr;
+        grid-template-columns: 1fr;
+    width: 98%;
   }
 }
 
@@ -550,6 +570,11 @@ footer #derechos {
   main .heroText__subtitle {
     font-size: 3rem;
     color: yellow;
+  }
+  main .imageSizing {
+    width: 1100px;
+    height: 500px;
+    margin-left: 0%;
   }
 }
 /*# sourceMappingURL=estilo.css.map */
