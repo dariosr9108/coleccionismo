@@ -122,7 +122,7 @@ main{
             text-align: center;
             border: solid black;
             margin: 0.8rem;
-            width: 60%;
+            width: 80%;
             margin-left: 0.1rem;
             
         
@@ -184,6 +184,8 @@ main{
             padding: 0.1rem;
             margin: 2rem;
             opacity: .5; 
+            object-fit: cover;
+            object-position:left;
         }
         
         .imagenesProductos:hover{
@@ -198,8 +200,7 @@ main{
             grid-template-rows: 1fr;
             grid-template-columns: 1fr;
             width: 98%;
-            object-fit: cover;
-            object-position:center;
+            
         }
         
         .mailWsp{
@@ -246,7 +247,7 @@ main{
         height: 500px;
         margin-left: -2%;
         object-fit: cover;
-        object-position:center;
+        object-position: right;
     } 
 
     

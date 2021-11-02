@@ -240,7 +240,7 @@ main section table {
   text-align: center;
   border: solid black;
   margin: 0.8rem;
-  width: 60%;
+  width: 80%;
   margin-left: 0.1rem;
 }
 
@@ -352,6 +352,10 @@ main section .imagenesProductos {
   padding: 0.1rem;
   margin: 2rem;
   opacity: .5;
+  -o-object-fit: cover;
+     object-fit: cover;
+  -o-object-position: left;
+     object-position: left;
 }
 
 main section .imagenesProductos:hover {
@@ -371,10 +375,6 @@ main section .productos {
   -ms-grid-columns: 1fr;
       grid-template-columns: 1fr;
   width: 98%;
-  -o-object-fit: cover;
-     object-fit: cover;
-  -o-object-position: center;
-     object-position: center;
 }
 
 main section .mailWsp {
@@ -426,8 +426,8 @@ main .imageSizing {
   margin-left: -2%;
   -o-object-fit: cover;
      object-fit: cover;
-  -o-object-position: center;
-     object-position: center;
+  -o-object-position: right;
+     object-position: right;
 }
 
 footer #dolar {
