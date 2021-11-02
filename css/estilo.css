@@ -240,7 +240,7 @@ main section table {
   text-align: center;
   border: solid black;
   margin: 0.8rem;
-  width: 98%;
+  width: 90%;
 }
 
 main section table .cuadro, main section table .año, main section table .empresa, main section table .figuras {
@@ -370,6 +370,10 @@ main section .productos {
   -ms-grid-columns: 1fr;
       grid-template-columns: 1fr;
   width: 98%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  -o-object-position: center;
+     object-position: center;
 }
 
 main section .mailWsp {
@@ -419,6 +423,10 @@ main .imageSizing {
   width: 500px;
   height: 500px;
   margin-left: -2%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  -o-object-position: center;
+     object-position: center;
 }
 
 footer #dolar {

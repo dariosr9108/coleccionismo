@@ -122,7 +122,7 @@ main{
             text-align: center;
             border: solid black;
             margin: 0.8rem;
-            width: 98%;
+            width: 90%;
         
             .cuadro{
                 font-family: 'Supermercado One', cursive;
@@ -196,6 +196,8 @@ main{
             grid-template-rows: 1fr;
             grid-template-columns: 1fr;
             width: 98%;
+            object-fit: cover;
+            object-position:center;
         }
         
         .mailWsp{
@@ -241,6 +243,8 @@ main{
         width: 500px;
         height: 500px;
         margin-left: -2%;
+        object-fit: cover;
+        object-position:center;
     } 
 
     
