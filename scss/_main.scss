@@ -124,6 +124,7 @@ main{
             margin: 0.8rem;
             width: 80%;
             margin-left: 0.1rem;
+            position: relative;
             
         
             .cuadro{
@@ -185,7 +186,7 @@ main{
             margin: 2rem;
             opacity: .5; 
             object-fit: cover;
-            object-position:left;
+            object-position:center;
         }
         
         .imagenesProductos:hover{

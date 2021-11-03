@@ -244,6 +244,7 @@ main section table {
   margin: 0.8rem;
   width: 80%;
   margin-left: 0.1rem;
+  position: relative;
 }
 
 main section table .cuadro, main section table .año, main section table .empresa, main section table .figuras {
@@ -356,8 +357,8 @@ main section .imagenesProductos {
   opacity: .5;
   -o-object-fit: cover;
      object-fit: cover;
-  -o-object-position: left;
-     object-position: left;
+  -o-object-position: center;
+     object-position: center;
 }
 
 main section .imagenesProductos:hover {
