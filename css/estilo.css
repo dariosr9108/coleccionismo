@@ -88,6 +88,8 @@ li {
 .menu li:hover .submenu {
   display: block;
   list-style: none;
+  -webkit-transform: translate(-25px, -10px);
+          transform: translate(-25px, -10px);
 }
 
 .menu li a {

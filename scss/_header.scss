@@ -37,9 +37,12 @@
         &:hover{
             transform: scale(1.2);
             color: $cr_hover;
+            
+
             .submenu {
                 display:block;
                 list-style: none;
+                transform: translate(-25px,-10px);
                 
                         
             }
