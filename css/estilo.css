@@ -354,10 +354,6 @@ main section .imagenesProductos {
   padding: 0.1rem;
   margin: 2rem;
   opacity: .5;
-  -o-object-fit: cover;
-     object-fit: cover;
-  -o-object-position: center;
-     object-position: center;
 }
 
 main section .imagenesProductos:hover {
