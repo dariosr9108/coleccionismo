@@ -358,7 +358,6 @@ main section .imagenesProductos {
      object-fit: cover;
   -o-object-position: center;
      object-position: center;
-  position: initial;
 }
 
 main section .imagenesProductos:hover {
