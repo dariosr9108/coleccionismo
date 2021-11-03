@@ -180,13 +180,14 @@ main{
         .imagenesProductos{
             border: solid 1px whitesmoke;
             overflow: hidden;
-            width: 20rem;
+            width: 18rem;
             height: 25rem;
             padding: 0.1rem;
             margin: 2rem;
             opacity: .5; 
             object-fit: cover;
             object-position:center;
+            position: relative;
         }
         
         .imagenesProductos:hover{
@@ -201,6 +202,7 @@ main{
             grid-template-rows: 1fr;
             grid-template-columns: 1fr;
             width: 98%;
+            
             
         }
         

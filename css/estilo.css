@@ -350,7 +350,7 @@ main section .button-4 {
 main section .imagenesProductos {
   border: solid 1px whitesmoke;
   overflow: hidden;
-  width: 20rem;
+  width: 18rem;
   height: 25rem;
   padding: 0.1rem;
   margin: 2rem;
@@ -359,6 +359,7 @@ main section .imagenesProductos {
      object-fit: cover;
   -o-object-position: center;
      object-position: center;
+  position: relative;
 }
 
 main section .imagenesProductos:hover {
