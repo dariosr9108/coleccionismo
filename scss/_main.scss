@@ -38,9 +38,8 @@ main{
         white-space: nowrap;
         
     }
-
-
-         
+    
+     
     h2{
         @include diseño(rgb(19, 16, 12),2rem,darkgrey,none )
 
@@ -218,10 +217,51 @@ main{
 
     }
     .heroImage {
-        background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../img/heromarcas\(1\).jpeg");
+        background-image: (linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../img/heromarcas\(1\).jpeg"));
         background-repeat: no-repeat;
         background-size: cover;
         height: 35rem;
+            
+    }
+
+    .heroImage2 {
+        background-image: (linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../img/dci.jpg"));
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 35rem;
+            
+    }
+
+    .heroImage3 {
+        background-image: (linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../img/marevli.jpg"));
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 35rem;
+            
+    }
+
+    .heroImage4 {
+        background-image: (linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../img/starwarsi.png"));
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 35rem;
+            
+    }
+
+    .heroImage5 {
+        background-image: (linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../img/hemani.jpg"));
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 35rem;
+            
+    }
+
+    .heroImage6 {
+        background-image: (linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../img/hpi.jpg"));
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 35rem;
+            
     }
     
     .heroText {
