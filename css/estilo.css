@@ -571,6 +571,9 @@ footer #derechos {
         grid-template-columns: 1fr 1fr 1fr;
     width: 98%;
   }
+  main .productos .imagenesProductos {
+    width: 20rem;
+  }
   main .heroText {
     text-align: center;
     position: relative;
